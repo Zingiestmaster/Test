@@ -1,6 +1,5 @@
 class Simalation
-  TOPICS = 22.times.map( &:itself )
-
+  TOPICS = (0..21).to_a
   N = 1_000_000
 
   def call( k )
